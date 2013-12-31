@@ -1,0 +1,36 @@
+
+data/img/sprite/explosions
+	http://opengameart.org/content/explosions-0
+
+data/bgm/BattleThemeA
+	cynicmusic.com pixelsphere.org
+	http://opengameart.org/content/battle-theme-a
+
+data/bgm/Menu_Theme_0
+	Axton Dylan Crolley
+	crolleya@gmail.com
+	http://opengameart.org/content/menu-or-level-select-theme
+	
+data/bgm/GameOver_II_2
+	Joseph Gilbert / Kistol
+	http://opengameart.org/content/game-over-ii
+
+data/bgm/round_end
+	http://opengameart.org/content/oldschool-win-and-die-jump-and-run-sounds
+
+data/sfx/qubodup-NavalBattleAndWaterSurfaceExplosionsSoundSet-cc0-OGG
+data/sfx/qubodup-WaterSurfaceExplosions-cc0
+	Iwan Gabovitch <qubodup@gmail.com>
+	
+P38
+	http://opengameart.org/content/p38-aircraft
+
+Aircrafts
+	http://opengameart.org/content/aircrafts-0
+
+data/img/sprite/heart
+Hearts
+	http://opengameart.org/content/hearts-set-01
+
+Title P38
+	http://en.wikipedia.org/wiki/File:020903-o-9999b-059.jpg
