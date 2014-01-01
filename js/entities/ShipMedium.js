@@ -58,7 +58,7 @@ game.ShipMediumEntity = me.ObjectEntity.extend({
 					var starty = 17;
 					var explosion = null;
 					for(var i=0;i<3;i++){
-						explosion = me.entityPool.newInstanceOf("explosion",that.pos.x-3,that.pos.y+starty,{image:'explosion',spritewidth:64,spriteheight:64},that.vel);
+						explosion = me.entityPool.newInstanceOf("explosion",that.pos.x+10,that.pos.y+starty,{image:'explosion',spritewidth:64,spriteheight:64},that.vel);
 						me.game.add(explosion,that.z+1);
 						starty+=64;						
 					}
