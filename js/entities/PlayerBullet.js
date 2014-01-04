@@ -15,6 +15,15 @@ game.PlayerBulletEntity = me.ObjectEntity.extend({
 			me.game.remove(this);
             return false;
         }
+   		if(this.pos.y>10){
+			me.game.remove(this);
+            return false;
+		}
+        if(this.pos.x+this.width<=0 || this.pos.x>=(me.game.viewport.width-1)){
+  		  	me.game.remove(entity);
+		  	return false;
+        }
+
         return true;
     },
 
