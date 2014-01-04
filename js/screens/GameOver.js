@@ -51,11 +51,11 @@ game.GameOverScreen = me.ScreenObject.extend({
     draw: function(context) {
         context.drawImage(this.title, 0, 0);
         var msg = "GAME OVER";
-        var x = (me.game.viewport.width-((msg.length-1)*32))/2;
+        var x = (me.game.viewport.width-((msg.length)*32))/2;
         this.font.draw(context, msg, x, 240);
 
         msg = "SCORE "+game.data.score;
-        var x = (me.game.viewport.width-((msg.length-1)*32))/2;
+        var x = (me.game.viewport.width-((msg.length)*32))/2;
         this.font.draw(context, msg, x, 300);
     }
 });

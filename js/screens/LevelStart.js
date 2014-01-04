@@ -54,11 +54,11 @@ game.LevelStartScreen = me.ScreenObject.extend({
         me.video.clearSurface (context, "black");
         //context.drawImage(this.title, 0, 0);
         var msg = "LEVEL "+game.data.level;
-        var x = (me.game.viewport.width-((msg.length-1)*32))/2;
+        var x = (me.game.viewport.width-((msg.length)*32))/2;
         var y = 230;
         this.font.draw(context, msg, x, y);
         msg = "GET READY";
-        x = (me.game.viewport.width-((msg.length-1)*32))/2;
+        x = (me.game.viewport.width-((msg.length)*32))/2;
         y+=40;
         this.font.draw(context, msg, x, y);
     }
