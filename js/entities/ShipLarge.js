@@ -7,7 +7,7 @@ game.ShipLargeEntity = me.ObjectEntity.extend({
 		this.parent(x, y, settings);
  
         this.setVelocity(4, 2);
-        this.vel.y = (game.data.scrollVel/3);        
+        this.vel.y = 0;
         this.gravity = 0;
         this.type = game.types.SHIP_LARGE;
         this.collidable = true;

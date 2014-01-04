@@ -7,7 +7,7 @@ game.ShipMediumEntity = me.ObjectEntity.extend({
 		this.parent(x, y, settings);
  
         this.setVelocity(4, 2);
-        this.vel.y = (game.data.scrollVel/2);
+        this.vel.y = 0;
         this.gravity = 0;
         this.type = game.types.SHIP_MEDIUM;
         this.collidable = true;

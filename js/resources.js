@@ -11,9 +11,9 @@ game.resources = [
 	 * @example
 	 * {name: "example_bgm", type: "audio", src: "data/bgm/", channel : 1},
 	 */	
-	{name: "battleThemeA", type: "audio", src: "data/bgm/", channel : 1},
-	{name: "Menu_Theme_0", type: "audio", src: "data/bgm/", channel : 1},
-	{name: "GameOver_II_2", type: "audio", src: "data/bgm/", channel : 1},
+	{name: "battlethemea", type: "audio", src: "data/bgm/", channel : 1},
+	{name: "menu_theme_0", type: "audio", src: "data/bgm/", channel : 1},
+	{name: "gameOver_ii_2", type: "audio", src: "data/bgm/", channel : 1},
 	{name: "round_end", type: "audio", src: "data/bgm/", channel : 1},
 
 
@@ -21,8 +21,8 @@ game.resources = [
 	 * @example
 	 * {name: "example_sfx", type: "audio", src: "data/sfx/", channel : 2}
 	 */
-	{name: "WaterSurfaceExplosion01", type: "audio", src: "data/sfx/qubodup-WaterSurfaceExplosions-cc0/qubodup-WaterSurfaceExplosions-cc0/", channel : 2},
-	{name: "GunShotGverb", type: "audio", src: "data/sfx/qubodup-NavalBattleAndWaterSurfaceExplosionsSoundSet-cc0-OGG/qubodup-NavalBattleAndWaterSurfaceExplosionsSoundSet-cc0-OGG/", channel : 2},
+	{name: "watersurfaceexplosion01", type: "audio", src: "data/sfx/qubodup-WaterSurfaceExplosions-cc0/qubodup-WaterSurfaceExplosions-cc0/", channel : 2},
+	{name: "gunShotgverb", type: "audio", src: "data/sfx/qubodup-NavalBattleAndWaterSurfaceExplosionsSoundSet-cc0-OGG/qubodup-NavalBattleAndWaterSurfaceExplosionsSoundSet-cc0-OGG/", channel : 2},
 	{name: "life_pickup", type: "audio", src: "data/sfx/", channel : 3},
 	
 	  /**

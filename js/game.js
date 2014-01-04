@@ -129,7 +129,7 @@ var game = {
   		  me.game.remove(entity);
 		  return false;
         }
-        if(entity.pos.x+entity.width<=0 || entity.pos.x>=(me.game.viewport.width-1)){
+        if(entity.pos.x+entity.width<=0 || entity.pos.x+entity.width>=(me.game.viewport.width-1)){
   		  me.game.remove(entity);
 		  return false;
         }

@@ -19,6 +19,10 @@ game.BulletSingleEntity = me.ObjectEntity.extend({
         var that = this;
 		var update = game.isVisible(this);
 		
+		if(this.pos.y<10){
+			update = false;
+			me.game.remove(this);
+		}
 		if(update){
 	        var res = me.game.collide(this);
 	        if(res){
